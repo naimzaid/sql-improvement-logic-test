@@ -1,11 +1,10 @@
-<!-- 
+
 ######################################################################
 # This is the whole answer for **B) SQL Improvement Logic Test**     #
 # Given by Tyrell Systems                                            #
 # Total time taken to finish the project is estimated to be          # 
 # 30min - 1hour.                                                     #
 ######################################################################
--->
 
 This is the optimize version of the query including 
 
