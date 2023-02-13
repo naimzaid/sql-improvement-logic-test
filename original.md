@@ -2,6 +2,8 @@
 
 `Copy pasted directly from the question`
 
+### Check out the optimized.md for the full answer for this question.
+
 
 ```sql
 SELECT Jobs.id AS `Jobs__id`,
