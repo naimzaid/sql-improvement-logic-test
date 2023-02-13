@@ -1,9 +1,15 @@
-`This is the optimize version of the query`
+<!-- 
+######################################################################
+# This is the whole answer for **B) SQL Improvement Logic Test**     #
+# Given by Tyrell Systems                                            #
+# Total time taken to finish the project is estimated to be          # 
+# 30min - 1hour.                                                     #
+######################################################################
+-->
+
+This is the optimize version of the query including 
 
 The query can be optimized by _indexing_ columns used in the **WHERE** clause for filtering. 
-Additionally, some of the join conditions can be simplified, for example, the type column 
-in the _affiliates_ table can be included in the **LEFT JOIN** conditions, instead of having 
-separate LEFT JOIN statements for each type.
 
 ### Column Indexing
 
@@ -27,6 +33,10 @@ ALTER TABLE `jobs_tools` ADD INDEX `jobs_tools_idx_job_id_affiliate_id` (`job_id
 ALTER TABLE `personalities` ADD INDEX `personalities_idx_id_deleted_name` (`id`,`deleted`,`name`);
 ALTER TABLE `practical_skills` ADD INDEX `practical_skills_idx_id_deleted_name` (`id`,`deleted`,`name`);
 ```
+
+Additionally, some of the join conditions can be simplified, for example, the type column 
+in the _affiliates_ table can be included in the **LEFT JOIN** conditions, instead of having 
+separate LEFT JOIN statements for each type.
 
 ### Optimized SQL Query
 
